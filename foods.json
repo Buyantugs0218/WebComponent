@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "category": "Fruit",
+        "calories": 95,
+        "img": ""
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "category": "Fruit",
+        "calories": 105,
+        "img": ""
+    },
+    {
+        "id": 3,
+        "name": "Carrot",
+        "category": "Vegetable",
+        "calories": 41,
+        "img": ""
+    },
+    {
+        "id": 4,
+        "name": "Chicken Breast",
+        "category": "Meat",
+        "calories": 165,
+        "img": ""
+    },
+    {
+        "id": 5,
+        "name": "Salmon",
+        "category": "Fish",
+        "calories": 206,
+        "img": ""
+    }
+]

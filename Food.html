@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Promotion</title>
+<link rel="stylesheet" href="Food.css">
+</head>
+<body>
+    <!-- Header and Search Bar -->
+    <header class="header">
+        <img src="" alt="Logo" class="logo">
+        <nav class="nuur_nav">
+            <ul>
+                <li><a href="lab1.html">Нүүр</a></li>
+                <li><a href="#">Захиалгууд</a></li>
+                <li><a href="Очиж авах .html">Очиж авах</a></li>
+                <li><a href="#">Профайл</a></li>
+                <li><a href="search.html">Search</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>🔍</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Carousel Component -->
+        <div class="carousel">
+            <div class="carousel-track">
+                <img src="image1.jpg" alt="Image 1" class="carousel-image">
+                <img src="image2.jpg" alt="Image 2" class="carousel-image">
+                <img src="image3.jpg" alt="Image 3" class="carousel-image">
+            </div>
+            <button class="carousel-button prev">❮</button>
+            <button class="carousel-button next">❯</button>
+        </div>
+
+        <!-- Filter Options -->
+        <div class="search-option">
+            <button class="filter-button" data-category="all">All</button>
+            <button class="filter-button" data-category="breakfast">Breakfast</button>
+            <button class="filter-button" data-category="lunch">Lunch</button>
+            <button class="filter-button" data-category="dinner">Dinner</button>
+            <button class="filter-button" data-category="dessert">Desserts</button>
+            <button class="filter-button" data-category="vegetarian">Vegetarian</button>
+            <button class="filter-button" data-category="low-carb">Low-Carb</button>
+            <button class="filter-button" data-category="high-protein">High-Protein</button>
+            <button class="filter-button" data-category="recommended">Recommended</button>
+            <button class="filter-button" data-category="surprise-me">Surprise Me</button>
+        </div>
+
+        <!-- Main Content -->
+        <section class="main-content">
+            <div class="in-sags">
+                <h2>Сагсанд байгаа бараанууд</h2>
+                <div id="cart-container" class="cart-container"></div>
+                <button id="checkout-button" style="display: none;">Төлбөр төлөх</button>
+            </div>
+            <div class="foods">
+                <h3>Боломжит бараанууд</h3>
+                <div class="food-menu scrollable-menu" id="food-menu"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript files -->
+    <script src="carousel.js"></script>
+    <script src="foodItem.js"></script>
+    <script src="cart.js"></script>
+    <script src="foods.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
